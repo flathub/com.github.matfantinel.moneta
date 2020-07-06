@@ -32,8 +32,8 @@
             {
                 "type": "git",
                 "url": "https://github.com/matfantinel/moneta.git",
-                "tag": "v2.1.0",
-                "commit": "8a2148580e49c453ea7629215eacaf14dd33094a"
+                "tag": "v2.2.0",
+                "commit": "52733301251e7e92c1d460054d7682de332c76d5"
             },
             {
               "type" : "patch",
