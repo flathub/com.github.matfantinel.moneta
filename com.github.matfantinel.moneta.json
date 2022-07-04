@@ -1,10 +1,10 @@
 {
   "app-id": "com.github.matfantinel.moneta",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "19.08",
+  "runtime-version": "21.08",
   "sdk": "org.freedesktop.Sdk",
   "base": "io.elementary.BaseApp",
-  "base-version": "juno-19.08",
+  "base-version": "juno-21.08",
   "command": "com.github.matfantinel.moneta",
   "finish-args": [
      "--share=ipc",
@@ -32,8 +32,7 @@
             {
                 "type": "git",
                 "url": "https://github.com/matfantinel/moneta.git",
-                "tag": "v2.2.0",
-                "commit": "52733301251e7e92c1d460054d7682de332c76d5"
+                "tag": "v2.2.0"
             },
             {
               "type" : "patch",
