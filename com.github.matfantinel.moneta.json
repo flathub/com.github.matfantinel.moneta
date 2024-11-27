@@ -1,10 +1,10 @@
 {
   "app-id": "com.github.matfantinel.moneta",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "19.08",
+  "runtime-version": "23.08",
   "sdk": "org.freedesktop.Sdk",
   "base": "io.elementary.BaseApp",
-  "base-version": "juno-19.08",
+  "base-version": "juno-23.08",
   "command": "com.github.matfantinel.moneta",
   "finish-args": [
      "--share=ipc",
@@ -25,6 +25,7 @@
      "*.a"
   ],
   "modules": [
+     "shared-modules/libsoup/libsoup-2.4.json",
      {
         "name": "moneta",
         "buildsystem": "meson",
@@ -34,6 +35,14 @@
                 "url": "https://github.com/matfantinel/moneta.git",
                 "tag": "v2.2.0",
                 "commit": "52733301251e7e92c1d460054d7682de332c76d5"
+            },
+            {
+              "type" : "patch",
+              "path" : "fix-itpo.patch"
+            },
+            {
+              "type" : "patch",
+              "path" : "fix-appdata.patch"
             },
             {
               "type" : "patch",
